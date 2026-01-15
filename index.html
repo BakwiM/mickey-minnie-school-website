@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micky Minnie Christian School</title>
     <!----==== CSS=== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+</body>
+<!---header section--->
   <header id="id">
     <!-- Navbar-->
      <nav class="Navbar">
        <h1 class="logo">MMCIE</h1>
+       <div class="menu-toggle">&#9776;</div>
+
        <ul class="nav-links">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -149,25 +155,57 @@
     </div>
     <br><br>
 
-    <div class="contact" id="contact">
-            <h2>Find Us</h2>
-            <br>
+         <!---Contact section-->
+    <!-- Contact section -->
+<div class="contact-us" id="contact">
 
+    <h2>Contact Us</h2>
+
+    <div class="contact-cards">
+        <div class="contact-card">
+            <i class="fas fa-phone"></i>
+            <p>071 234 5678</p>
+        </div>
+
+        <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <p>info@mickeyminnie.co.za</p>
+        </div>
+
+        <div class="contact-card">
+            <i class="fas fa-location-dot"></i>
+            <p>Brits, North West</p>
+        </div>
+    </div>
+
+    <h2>Find Us</h2>
+
+    <div class="map-wrapper">
         <div class="map-container">
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.572226631569!2d27.777750899999997!3d-25.619127199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebe31b51e5bf023%3A0x2e0ff70a98b653fa!2sMickey&#39;Minnie%20Christian%20Daycare%20centre!5e0!3m2!1sen!2sza!4v1763851251205!5m2!1sen!2sza" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" loading="lazy">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.572226631569!2d27.777750899999997!3d-25.619127199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ebe31b51e5bf023%3A0x2e0ff70a98b653fa!2sMickey%27Minnie%20Christian%20Daycare%20centre!5e0!3m2!1sen!2sza!4v1763851251205!5m2!1sen!2sza"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
     </div>
-    <div class="footer">
-        <footer>
-            <!---we have to do a footer here-->
-        </footer>
 
 </div>
+
+     <!---footer section-->
+    <footer class="footer">
+        <p>© 2026 Mickey'Minnie Christian School</p>
+        <p>Nurturing the Mind, Heart & Spirit</p>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </footer>
+
+
     
-    
-          
-    
+   <script src="main.js"></script> 
 </body>
 </html>
